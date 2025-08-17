@@ -17,9 +17,9 @@ public class Shop {
         float discountAmount = totalCost* discount/100;
         float netPay = totalCost-discountAmount;
 
-        System.out.println("total cost :"+totalCost);
-        System.out.println("discountAmount :"+discountAmount);
-        System.out.println("Netpay :"+netPay);
+        System.out.println("total cost = "+totalCost+" baht");
+        System.out.println("discountAmount = "+discountAmount+" baht");
+        System.out.println("Netpay = "+netPay+" baht");
 
 
         
