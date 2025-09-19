@@ -9,18 +9,13 @@ public class temstatus {
 
         String status= "";
         //logic
-        if (celsius <20) {
-            status = "Cold";
-        }
-        else if (celsius >=20){
-            status = "Normal";
-        }
-        else if (celsius >35){
-            status ="Hot";
-        }
-        //output
+       if (celsius < 20) {status = "Cold";}
+        else if (celsius >= 20 && celsius <= 35) {status = "Normal";}
+        else if (celsius > 35) {status = "Hot";}
+
+        //output 
         System.out.println("temperature : "+celsius+"C");
-        System.out.println("status"+status);
+        System.out.println("status :"+status);
 
     }
 }
